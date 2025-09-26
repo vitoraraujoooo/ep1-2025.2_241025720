@@ -1,9 +1,18 @@
-public class paciente {
-    public String Nome;
-    protected Int idade;
-    protected Int CPF;
-    //consultas
-    //internações
-    
-}
+import java.util.List;
+import service.ProntuárioService;
+//nome
+//idade
+//cpf
+//protuário
+//consultas
+//concluiu consulta? bolean
 
+public class Paciente extends Pessoa{
+    private static List<Consulta> consultas = new ArrayList<>();
+    
+
+
+
+
+
+}

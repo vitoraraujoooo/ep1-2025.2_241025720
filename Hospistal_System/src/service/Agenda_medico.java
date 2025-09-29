@@ -120,11 +120,11 @@ public void exportarParaCSV() {
                 }
             }
 
-            System.out.println("✅ Agenda salva com sucesso em " + DIRETORIO + "/" + NOME_ARQUIVO);
+            System.out.println("Agenda salva com sucesso em " + DIRETORIO + "/" + NOME_ARQUIVO "!!");
         }
 
     } catch (IOException e) {
-        System.err.println("❌ Erro ao salvar a agenda: " + e.getMessage());
+        System.err.println("!! Erro ao salvar a agenda: " + e.getMessage());
         e.printStackTrace();
     }
 }

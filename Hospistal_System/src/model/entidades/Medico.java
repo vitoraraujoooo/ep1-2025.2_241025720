@@ -1,3 +1,4 @@
+package model.entidades;
 import Agenda_medico;
 
 public class Medico extends Pessoa{
@@ -12,6 +13,7 @@ public class Medico extends Pessoa{
         this.nome = nome;
         this.CRM = CRM;
         this.especialidade = especialidade;
+        this.
 
 
     }

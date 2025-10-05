@@ -55,11 +55,11 @@ class SlotHorario {
 
 }
 
-public class Agenda_medico {
+public class Agendamento {
 
     private Map<DayOfWeek, List<SlotHorario>> agendaSemanal;
 
-    public Agenda_medico() {
+    public Agendamento() {
         this.agendaSemanal = new HashMap<>();
 
         for (DayOfWeek dia : DayOfWeek.values()) {
@@ -136,8 +136,8 @@ public void DesmarcarConsulta(){
 public void exportarParaCSV() {
 
     String DIRETORIO = "Dados";
-    String NOME_ARQUIVO = "Agenda_medico.csv";
-    Path caminhoDiretorio = Paths.get("C:\\Trabalhos\\OO25.2\\Hospistal_System\\Dados\\Agenda_medico.csv");
+    String NOME_ARQUIVO = "Agendamento.csv";
+    Path caminhoDiretorio = Paths.get("C:\\Trabalhos\\OO25.2\\Hospistal_System\\Dados\\Agendamento.csv");
 
     try {
 

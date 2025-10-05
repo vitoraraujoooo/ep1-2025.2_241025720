@@ -5,6 +5,7 @@ public class Medico extends Pessoa{
     private int CRM;
     private String especialidade;
     private int custo_consulta;
+    
     private Agenda_medico agenda;
 
 

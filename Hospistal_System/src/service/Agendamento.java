@@ -123,7 +123,7 @@ public void MarcarConsulta(Paciente paciente, Medico medico, LocalDateTime datac
     // verificar de consulta foi marcada
     //return consulta marcada
     //voltar ao inicio
-
+    
 }
 
 public void DesmarcarConsulta(){

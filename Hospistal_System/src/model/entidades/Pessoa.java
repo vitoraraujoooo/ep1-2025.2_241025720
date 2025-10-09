@@ -1,5 +1,6 @@
 package model.entidades;
 import java.time.LocalDate;
+import java.time.Period;
 public abstract class Pessoa {
     private String nome;
     private String cpf;
@@ -23,5 +24,7 @@ public abstract class Pessoa {
     public LocalDate getDatadenascimento() {
         return datadenascimento;
     }
-
+    public int getIdade() {
+        return Period.between(getDatadenascimento(), LocalDate.now()).getYears();
+    }
 }

@@ -27,7 +27,10 @@ public class Paciente extends Pessoa{
 
         this.plano_saude = plano_saude;
         this.nivel_plano = nivel_plano;
-}
+    }
+    public Prontuario getProntuario() {
+        return this.historicoProntuario;
+    }
 
 
 
